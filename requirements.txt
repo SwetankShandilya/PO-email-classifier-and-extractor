@@ -1,0 +1,12 @@
+transformers 
+torch 
+pandas 
+numpy 
+imapclient
+beautifulsoup4
+pdfplumber
+pillow 
+accelerate>=0.26.0
+easyocr
+
+

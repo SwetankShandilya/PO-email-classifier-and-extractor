@@ -1,0 +1,12 @@
+ABOUT TOOL:-
+
+1. This project utilizes Gmail as the source for email processing. However, you can modify the configuration to use other email service providers as required.
+2. Certain access permissions may need to be adjusted on your email account to enable IMAPClient to access your emails. Refer to your email service provider’s documentation to configure the necessary settings.
+3. The tool is designed to fetch only the 10 most recent emails by default. You can update the code to increase this limit based on your requirements.
+4. To avoid processing duplicate emails, the tool is configured to check only unread emails. If you prefer to process all emails, you can adjust the code accordingly.
+
+ABOUT FINETUNING:-
+
+1. The classification model used in this tool is BERT, fine-tuned on custom-generated data.
+2. The model fine-tuning section in the code is currently commented out. If you wish to fine-tune the model further, you can uncomment this portion of the code.
+3. It is recommended to fine-tune the model on additional, diverse datasets, especially those containing email attachments, to enhance the classifier’s performance. The currently deployed fine-tuned model may not achieve optimal results due to limitations in data and hardware during development.
